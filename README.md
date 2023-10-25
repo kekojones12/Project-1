@@ -1,31 +1,36 @@
- Project-1: The Effect of COVID on Crime in the City of Los Angeles
+ # Project-1
+## The Effect of COVID on Crime in the City of Los Angeles
 
+### Objective
 The goal of this project was to determine the potential effects of the Covid-19 pandemic on crime in the city of Los Angeles
-Research Questions:
-1.	Was overall crime lower during the Covid-19 pandemic?
-2.	Did crime shift by bureau over time?
+
+### Research Questions:
+1. 	Did the Covid-19 pandemic have a significant impact on overall crime?
+2. 	Did crime shift by bureau over time?
 3.	Did the pandemic affect the number of victims by gender?
 4.	Was there was an increase in domestic violence and child abuse?
 
-Methodology:
-Data Set: City of LA Crime Dataset 2010 – 2019 and 2020-Present
-Analyzed data in two stages: 
-Stage One: Focused on the total number crimes reported, crimes reported in different areas
-Stage Two: Focused on the race and/or ethnicity of the victims, a subset of the type of crime reported, and the gender of the victims
-Hypothesis and Null Hypothesis:
-Null Hypothesis
-•	Overall Crime: Covid-19 did not have a significant effect on crime in Los Angeles
-•	By Bureau: Covid-19 did not have a significant effect on crime in each area of Los Angeles
-•	By Gender: Covid-19 did not have a significant effect on the victim gender
-•	By Type: Covid-19 did not have a significant effect on domestic violence and child abuse
+### Methodology:
+Our analysis sources two datasets of every crime incident from the Los Angeles Police Department, from 2010-2019 and 2020-2023, respectively.
+These records were transcribed from handwritten and typed police reports, and have the potential for inaccuracies.
+Our assumption for this project was that the Covid-19 era took place from the 2020-2023
+After collecting and concatenating the datasets into one comprehensive dataframe, the columns were reduced to the information that helped 
 
-Alternate Hypothesis
-•	Overall Crime: Covid-19 did have a significant effect on crime in Los Angeles
-•	By Bureau: Covid-19 did have a significant effect on crime in each area of Los Angeles
-•	By Gender: Covid-19 did have a significant effect on the victim gender
-•	By Type: Covid-19 did have a significant effect on domestic violence and child abuse
+### Hypothesis and Null Hypothesis:
 
-Data Cleaning
+#### Null Hypothesis
+Overall Crime: Covid-19 did not have a significant effect on crime in Los Angeles
+By Bureau: Covid-19 did not have a significant effect on crime in each area of Los Angeles
+By Gender: Covid-19 did not have a significant effect on the victim gender
+By Type: Covid-19 did not have a significant effect on domestic violence and child abuse
+
+#### Alternate Hypothesis
+Overall Crime: Covid-19 did have a significant effect on crime in Los Angeles
+By Bureau: Covid-19 did have a significant effect on crime in each area of Los Angeles
+By Gender: Covid-19 did have a significant effect on the victim gender
+By Type: Covid-19 did have a significant effect on domestic violence and child abuse
+
+### Data Cleaning
 
 1. Concatenated the two data sets
 
@@ -60,26 +65,39 @@ Data Cleaning
 ![image](https://github.com/kekojones12/Project-1/assets/15304495/8b15588a-1882-4bd0-87b8-887e61200541)
 ________________________________________________________________________________________________________
 
-                           Crime Summary 
+                           ### Annual Crime Summary 
 
-Created a Summary Statistics table of the total crimes over the entire dataset
-Bar plot of the total crime count over the length of the dataset
-   
+#### This analysis comprised of multiple steps:
+  - Created a new dataframe the total number of crimes indexed by the year
+  - Percentage Change per year was calculated and added to the new dataframe
+  - A Summary Statistics table was generated
+  - IQR, upper and lower bounds were calculated to confirm that there were no outliers
+  - Created an Annual Crime Summary dataframe consisting of the most common occurring data from each of our columns indexed by year
+  - Plotted a bar graph of the Total Crimes by Year (with the mean visible)
+  - Plotted a line graph of the Percentage Change by Year
+  - Plotted a linear regression of the Total Crimes by Year
+  - Ran a T-Test of Pre-Covid and Covid-Era Yearly Total Crimes by slicing the data.  
 
-![](./output_data/TotalCrimeYTY.png)
-Line graph showing the percentage change in total crimes year-to-year
+![](./output_data/TotalCrimeYTY.png) 
+
+
 ![](./output_data/PercentChangeYTY.png)
-Linear Regression plot
+
+
 ![](./output_data/LinearRegressionYTY.png)
 
-T-Test of Pre-Covid and Post-Covid Yearly Total Crimes by slicing the data.
+
+#### Results:
+  - There were no statistical outliers in the Annual Total Crimes data
+  - Three out of the Four Covid-Era years were below the mean of the entire 14 year period in the dataset
+  - The Percentage Change analysis showed that very similar decreases in total crime occurred in 2014 and 2020
+  - The linear regression produced an r-value of 0.0095, showing a weak linear relationship of total crimes over the years
+  - The Annual Crime Summary showed that with further research, Hispanic Victim Data and Single Family Dwellings have the potential to be key indicators in grasping the total crime in Los Angeles
+  - The T-Test calculated a p-value of 0.2469, which shows that, while the Covid-Era mean was 155124 compared to Pre-Covid mean of 170625 the difference between the Covid-Era and Pre-Covid means do not have a statisically significant difference between them
 
 
 
-
-
-
-                    Area Summary
+### Area Summary
 
 1.  We selected all of the different Areas .
 2. Placed all areas in four bins: Central, South, West, Valley. 
