@@ -37,8 +37,9 @@ Bar plot of the total crime count over the length of the dataset
 
 ![](./output_data/TotalCrimeYTY.png)
 Line graph showing the percentage change in total crimes year-to-year
-
+![](./output_data/PercentChangeYTY.png)
 Linear Regression plot
+![](./output_data/LinearRegressionYTY.png)
 
 T-Test of Pre-Covid and Post-Covid Yearly Total Crimes by slicing the data.
 
