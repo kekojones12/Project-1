@@ -65,7 +65,7 @@ By Type: Covid-19 did have a significant effect on domestic violence and child a
 ![image](https://github.com/kekojones12/Project-1/assets/15304495/8b15588a-1882-4bd0-87b8-887e61200541)
 ________________________________________________________________________________________________________
 
-                           ### Annual Crime Summary 
+### Annual Crime Summary 
 
 #### This analysis comprised of multiple steps:
   - Created a new dataframe the total number of crimes indexed by the year
