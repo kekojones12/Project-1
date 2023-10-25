@@ -102,10 +102,11 @@ ________________________________________________________________________________
 1.  We selected all of the different Areas .
 2. Placed all areas in four bins: Central, South, West, Valley. 
 3. Pre Covid Data
-   a: filter your DataFrame to include only the data for the years 2010 to 2019 and grouped by Area Name and Crime Year.
-   b: Then group it by Area Name and calcuate the mean.  
+    filter your DataFrame to include only the data for the years 2010 to 2019 and grouped by Area Name and Crime Year.
+   
+    Then group it by Area Name and calcuate the mean.  
 4. Covid Data 
-   a: Did same thing with data for 2020 to 2023  
+   Did same thing with data for 2020 to 2023  
 
 5. Plotted a Bar Graph               
 
@@ -115,7 +116,8 @@ ________________________________________________________________________________
 
 [https://api.geoapify.com/v2/places](https://api.geoapify.com/v2/places)
 
-![](./output_data/Pre_covid.png)
+![](./output_data/Pre_covid..png)
+
 ![](./output_data/covid_era.png)  
 
 7. Merged the data of Area Name/ Pre Covid Years/ Mean Data and Area Name/ Covid Years/ Mean Data
