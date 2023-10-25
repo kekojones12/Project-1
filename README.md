@@ -44,11 +44,14 @@ By Type: Covid-19 did have a significant effect on domestic violence and child a
   - Plotted a linear regression of the Total Crimes by Year
   - Ran a T-Test of Pre-Covid and Covid-Era Yearly Total Crimes by slicing the data.  
 
-![](./output_data/TotalCrimeYTY.png)
-Line graph showing the percentage change in total crimes per year
+![](./output_data/TotalCrimeYTY.png) 
+
+
 ![](./output_data/PercentChangeYTY.png)
-Linear Regression plot of the total crimes per year
+
+
 ![](./output_data/LinearRegressionYTY.png)
+
 
 #### Results:
   - There were no statistical outliers in the Annual Total Crimes data
@@ -60,7 +63,7 @@ Linear Regression plot of the total crimes per year
 
 
 
-                    Area Summary
+### Area Summary
 
 1.  We selected all of the different Areas .
 2. Placed all areas in four bins: Central, South, West, Valley. 
