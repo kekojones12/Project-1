@@ -5,8 +5,8 @@
 The goal of this project was to determine the potential effects of the Covid-19 pandemic on crime in the city of Los Angeles
 
 ### Research Questions:
-1. 	Did the Covid-19 pandemic have a significant impact on overall crime?
-2. 	Did crime shift by bureau over time?
+1. Did the Covid-19 pandemic have a significant impact on overall crime?
+2. Did crime shift by bureau over time?
 3.	Did the pandemic affect the number of victims by gender?
 4.	Was there was an increase in domestic violence and child abuse?
 
@@ -19,16 +19,16 @@ After collecting and concatenating the datasets into one comprehensive dataframe
 ### Hypothesis and Null Hypothesis:
 
 #### Null Hypothesis
-Overall Crime: Covid-19 did not have a significant effect on crime in Los Angeles
-By Bureau: Covid-19 did not have a significant effect on crime in each area of Los Angeles
-By Gender: Covid-19 did not have a significant effect on the victim gender
-By Type: Covid-19 did not have a significant effect on domestic violence and child abuse
+Annual Crime: Covid-19 did not have a significant effect on crime in Los Angeles
+<br>By Bureau: Covid-19 did not have a significant effect on crime in each area of Los Angeles
+<br>By Gender: Covid-19 did not have a significant effect on the victim gender
+<br>By Type: Covid-19 did not have a significant effect on domestic violence and child abuse
 
 #### Alternate Hypothesis
 Overall Crime: Covid-19 did have a significant effect on crime in Los Angeles
-By Bureau: Covid-19 did have a significant effect on crime in each area of Los Angeles
-By Gender: Covid-19 did have a significant effect on the victim gender
-By Type: Covid-19 did have a significant effect on domestic violence and child abuse
+<br>By Bureau: Covid-19 did have a significant effect on crime in each area of Los Angeles
+<br>By Gender: Covid-19 did have a significant effect on the victim gender
+<br>By Type: Covid-19 did have a significant effect on domestic violence and child abuse
 
 ### Data Cleaning
 
@@ -99,7 +99,7 @@ ________________________________________________________________________________
 
 ### Area Summary
 
-1.  We selected all of the different Areas .
+1. We selected all of the different Areas .
 2. Placed all areas in four bins: Central, South, West, Valley. 
 3. Pre Covid Data
     filter your DataFrame to include only the data for the years 2010 to 2019 and grouped by Area Name and Crime Year.
@@ -134,3 +134,11 @@ Defined different categories
  Listed all crime descriptions
  Categorize each crime description
 Plotted a pie Chart
+
+
+### Conclusions
+Annual Crime: Covid-19 did not have a significant effect on annual crime in Los Angeles
+By Bureau: Covid-19 crime numbers were statistically significantly different than Pre Covid Crime numbers in Four Bureaus of Los Angeles
+By Gender: Covid-19 did not have a significant effect on the victim gender
+By Type: Covid-19 effect on domestic violence and child abuse was not conclusive
+
