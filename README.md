@@ -76,8 +76,12 @@ ________________________________________________________________________________
   - Plotted a bar graph of the Total Crimes by Year (with the mean visible)
   - Plotted a line graph of the Percentage Change by Year
   - Plotted a linear regression of the Total Crimes by Year
-  - Ran a T-Test of Pre-Covid and Covid-Era Yearly Total Crimes by slicing the data.  
+  - Ran a T-Test of Pre-Covid and Covid-Era Yearly Total Crimes by slicing the data.
+      
+#### Methodology Snippets
 
+
+#### Output Data
 ![](./output_data/TotalCrimeYTY.png) 
 
 
@@ -138,7 +142,7 @@ Plotted a pie Chart
 
 ### Conclusions
 Annual Crime: Covid-19 did not have a significant effect on annual crime in Los Angeles
-By Bureau: Covid-19 crime numbers were statistically significantly different than Pre Covid Crime numbers in Four Bureaus of Los Angeles
-By Gender: Covid-19 did not have a significant effect on the victim gender
-By Type: Covid-19 effect on domestic violence and child abuse was not conclusive
+<br>By Bureau: Covid-19 crime numbers were statistically significantly different than Pre Covid Crime numbers in Four Bureaus of Los Angeles
+<br>By Gender: Covid-19 did not have a significant effect on the victim gender
+<br>By Type: Covid-19 effect on domestic violence and child abuse was not conclusive
 
