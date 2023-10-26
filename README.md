@@ -96,7 +96,7 @@ ________________________________________________________________________________
   - The linear regression produced an r-value of 0.0095, showing a weak linear relationship of total crimes over the years
   - The Annual Crime Summary showed that with further research, Hispanic Victim Data and Single Family Dwellings have the potential to be key indicators in grasping the total crime in Los Angeles
   - The T-Test calculated a p-value of 0.2469, which shows that, while the Covid-Era mean was 155124 compared to Pre-Covid mean of 170625 the difference between the Covid-Era and Pre-Covid means do not have a statisically significant difference between them
-
+  - Overall, the Annual Crime Analysis was an exercise in how visualizing statistical differences does not imply statistical significance, as the total crimes committed during the Covid-Era were undoubtedly lower than Pre-Covid
 ________________________________________________________________________________________________________
 
 ### Area Summary
