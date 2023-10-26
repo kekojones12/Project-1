@@ -121,8 +121,8 @@ ________________________________________________________________________________
 
 
 
-#### Null Hypothesis: There is no statiscal difference between two datas
-#### Hypothesis: There is a statiscally significant difference.
+#### Null Hypothesis: There is no statistical difference between two datas
+#### Hypothesis: There is a statistically significant difference.
 ________________________________________________________________________________________________________
 ### Types of Crimes Gender Summary
  - Counted all of the unique values in 'Types of Crime' column                     
